@@ -1,0 +1,2 @@
+Invoking command in '/home/stupid/lunabot_ws/build/lunabot': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/stupid/lunabot_ws/install/lunabot /usr/bin/cmake /home/stupid/lunabot_ws/src/lunabot -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX=/home/stupid/lunabot_ws/install/lunabot
+Invoked command in '/home/stupid/lunabot_ws/build/lunabot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/stupid/lunabot_ws/install/lunabot /usr/bin/cmake /home/stupid/lunabot_ws/src/lunabot -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX=/home/stupid/lunabot_ws/install/lunabot

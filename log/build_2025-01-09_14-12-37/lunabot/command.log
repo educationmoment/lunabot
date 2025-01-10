@@ -1,0 +1,4 @@
+Invoking command in '/home/stupid/lunabot_ws/build/lunabot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/stupid/lunabot_ws/build/lunabot -- -j20 -l20
+Invoked command in '/home/stupid/lunabot_ws/build/lunabot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/stupid/lunabot_ws/build/lunabot -- -j20 -l20
+Invoking command in '/home/stupid/lunabot_ws/build/lunabot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/stupid/lunabot_ws/build/lunabot
+Invoked command in '/home/stupid/lunabot_ws/build/lunabot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/stupid/lunabot_ws/build/lunabot

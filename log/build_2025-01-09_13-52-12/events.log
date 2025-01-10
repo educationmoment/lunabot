@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000348] (lunabot) JobQueued: {'identifier': 'lunabot', 'dependencies': OrderedDict()}
+[0.001182] (lunabot) JobStarted: {'identifier': 'lunabot'}
+[0.006205] (lunabot) JobProgress: {'identifier': 'lunabot', 'progress': 'cmake'}
+[0.006903] (lunabot) Command: {'cmd': ['/usr/bin/cmake', '/home/stupid/lunabot_ws/src/lunabot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/stupid/lunabot_ws/install/lunabot'], 'cwd': '/home/stupid/lunabot_ws/build/lunabot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'stupid'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/stupid'), ('OLDPWD', '/home/stupid/lunabot_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/stupid/lunabot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'stupid'), ('NAME', 'DESKTOP-P7JPLCA'), ('WSL_INTEROP', '/run/WSL/372_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/stupid/lunabot_ws/src/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/stupid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.3.7-hotspot/bin:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.2.1/:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Mullvad VPN/resources:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/admin/AppData/Local/pnpm:/mnt/c/Users/admin/.cargo/bin:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/adm:/mnt/c/Users/admin/.dotnet/tools:/mnt/c/Program Files/qemu:/mnt/c/Users/admin/.dotnet/tools:/mnt/c/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/admin/AppData/Roaming/npm:/mnt/c/Users/admin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/Program Files/CMake/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/stupid/lunabot_ws/install/lunabot'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/stupid/lunabot_ws/build/lunabot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/stupid/lunabot_ws/install/lunabot/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/stupid/lunabot_ws/install/lunabot')]), 'shell': False}
+[0.100020] (-) TimerEvent: {}
+[0.147513] (lunabot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200321] (-) TimerEvent: {}
+[0.300848] (-) TimerEvent: {}
+[0.401192] (-) TimerEvent: {}
+[0.501760] (-) TimerEvent: {}
+[0.602309] (-) TimerEvent: {}
+[0.702842] (-) TimerEvent: {}
+[0.721980] (lunabot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.803174] (-) TimerEvent: {}
+[0.903719] (-) TimerEvent: {}
+[1.004269] (-) TimerEvent: {}
+[1.104806] (-) TimerEvent: {}
+[1.144134] (lunabot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.205075] (-) TimerEvent: {}
+[1.284796] (lunabot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.290068] (lunabot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.290255] (lunabot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.290555] (lunabot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.292470] (lunabot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.305183] (-) TimerEvent: {}
+[1.405468] (-) TimerEvent: {}
+[1.440814] (lunabot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.446381] (lunabot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.446585] (lunabot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.446911] (lunabot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.448079] (lunabot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.505688] (-) TimerEvent: {}
+[1.541802] (lunabot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.581697] (lunabot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.595646] (lunabot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.605778] (-) TimerEvent: {}
+[1.706004] (-) TimerEvent: {}
+[1.748083] (lunabot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.750893] (lunabot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.755959] (lunabot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.763677] (lunabot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.774102] (lunabot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.801993] (lunabot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.803474] (lunabot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.806127] (-) TimerEvent: {}
+[1.906500] (-) TimerEvent: {}
+[2.006914] (-) TimerEvent: {}
+[2.107339] (-) TimerEvent: {}
+[2.207748] (-) TimerEvent: {}
+[2.308060] (-) TimerEvent: {}
+[2.408376] (-) TimerEvent: {}
+[2.508734] (-) TimerEvent: {}
+[2.609055] (-) TimerEvent: {}
+[2.709408] (-) TimerEvent: {}
+[2.809722] (-) TimerEvent: {}
+[2.910064] (-) TimerEvent: {}
+[3.010391] (-) TimerEvent: {}
+[3.110726] (-) TimerEvent: {}
+[3.211027] (-) TimerEvent: {}
+[3.274415] (lunabot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.311125] (-) TimerEvent: {}
+[3.411366] (-) TimerEvent: {}
+[3.511587] (-) TimerEvent: {}
+[3.611819] (-) TimerEvent: {}
+[3.712043] (-) TimerEvent: {}
+[3.812267] (-) TimerEvent: {}
+[3.912525] (-) TimerEvent: {}
+[4.012862] (-) TimerEvent: {}
+[4.113116] (-) TimerEvent: {}
+[4.213374] (-) TimerEvent: {}
+[4.313626] (-) TimerEvent: {}
+[4.413904] (-) TimerEvent: {}
+[4.514169] (-) TimerEvent: {}
+[4.614409] (-) TimerEvent: {}
+[4.714658] (-) TimerEvent: {}
+[4.814927] (-) TimerEvent: {}
+[4.915173] (-) TimerEvent: {}
+[4.937514] (lunabot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.015264] (-) TimerEvent: {}
+[5.115503] (-) TimerEvent: {}
+[5.215742] (-) TimerEvent: {}
+[5.315993] (-) TimerEvent: {}
+[5.416222] (-) TimerEvent: {}
+[5.516461] (-) TimerEvent: {}
+[5.616700] (-) TimerEvent: {}
+[5.716941] (-) TimerEvent: {}
+[5.817180] (-) TimerEvent: {}
+[5.917434] (-) TimerEvent: {}
+[6.017707] (-) TimerEvent: {}
+[6.117962] (-) TimerEvent: {}
+[6.218219] (-) TimerEvent: {}
+[6.318451] (-) TimerEvent: {}
+[6.418690] (-) TimerEvent: {}
+[6.518927] (-) TimerEvent: {}
+[6.619142] (-) TimerEvent: {}
+[6.719394] (-) TimerEvent: {}
+[6.819649] (-) TimerEvent: {}
+[6.919886] (-) TimerEvent: {}
+[7.020124] (-) TimerEvent: {}
+[7.120362] (-) TimerEvent: {}
+[7.220596] (-) TimerEvent: {}
+[7.320840] (-) TimerEvent: {}
+[7.421096] (-) TimerEvent: {}
+[7.521337] (-) TimerEvent: {}
+[7.621576] (-) TimerEvent: {}
+[7.721816] (-) TimerEvent: {}
+[7.822065] (-) TimerEvent: {}
+[7.914917] (lunabot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.919789] (lunabot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.922124] (-) TimerEvent: {}
+[8.022315] (-) TimerEvent: {}
+[8.063511] (lunabot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.063786] (lunabot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.122392] (-) TimerEvent: {}
+[8.210067] (lunabot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.210751] (lunabot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.222422] (-) TimerEvent: {}
+[8.246669] (lunabot) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[8.256174] (lunabot) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.17 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[8.303356] (lunabot) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[8.309043] (lunabot) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[8.309239] (lunabot) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'DutyCycleOutput.msg' doesn't\n"}
+[8.309296] (lunabot) StderrLine: {'line': b'  exist relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[8.309343] (lunabot) StderrLine: {'line': b"  '/home/stupid/lunabot_ws/src/lunabot'\n"}
+[8.309386] (lunabot) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.309427] (lunabot) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[8.309467] (lunabot) StderrLine: {'line': b'\n'}
+[8.309525] (lunabot) StderrLine: {'line': b'\x1b[0m\n'}
+[8.309575] (lunabot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.309620] (lunabot) StdoutLine: {'line': b'See also "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/CMakeOutput.log".\n'}
+[8.314507] (lunabot) CommandEnded: {'returncode': 1}
+[8.322629] (-) TimerEvent: {}
+[8.327101] (lunabot) JobEnded: {'identifier': 'lunabot', 'rc': 1}
+[8.337603] (-) EventReactorShutdown: {}

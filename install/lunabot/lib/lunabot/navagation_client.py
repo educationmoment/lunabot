@@ -1,0 +1,1 @@
+/home/stupid/lunabot_ws/src/lunabot/scripts/navagation_client.py

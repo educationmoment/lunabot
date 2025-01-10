@@ -1,0 +1,46 @@
+[0.008s] Invoking command in '/home/stupid/lunabot_ws/build/lunabot': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/stupid/lunabot_ws/install/lunabot /usr/bin/cmake /home/stupid/lunabot_ws/src/lunabot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/stupid/lunabot_ws/install/lunabot
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.721s] -- The CXX compiler identification is GNU 11.4.0
+[1.143s] -- Detecting C compiler ABI info
+[1.284s] -- Detecting C compiler ABI info - done
+[1.289s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.289s] -- Detecting C compile features
+[1.289s] -- Detecting C compile features - done
+[1.291s] -- Detecting CXX compiler ABI info
+[1.440s] -- Detecting CXX compiler ABI info - done
+[1.445s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.445s] -- Detecting CXX compile features
+[1.446s] -- Detecting CXX compile features - done
+[1.447s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.541s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.581s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.595s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.747s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.750s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.755s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.763s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.773s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.801s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.802s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.273s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.936s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.914s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.919s] -- Looking for pthread.h
+[8.062s] -- Looking for pthread.h - found
+[8.063s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.209s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.210s] -- Found Threads: TRUE  
+[8.246s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[8.255s] -- Found nav2_msgs: 1.1.17 (/opt/ros/humble/share/nav2_msgs/cmake)
+[8.302s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.308s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[8.308s]   rosidl_generate_interfaces() the passed file 'DutyCycleOutput.msg' doesn't
+[8.308s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[8.308s]   '/home/stupid/lunabot_ws/src/lunabot'
+[8.308s] Call Stack (most recent call first):
+[8.308s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[8.308s] 
+[8.308s] [0m
+[8.308s] -- Configuring incomplete, errors occurred!
+[8.308s] See also "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/CMakeOutput.log".
+[8.313s] Invoked command in '/home/stupid/lunabot_ws/build/lunabot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/stupid/lunabot_ws/install/lunabot /usr/bin/cmake /home/stupid/lunabot_ws/src/lunabot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/stupid/lunabot_ws/install/lunabot

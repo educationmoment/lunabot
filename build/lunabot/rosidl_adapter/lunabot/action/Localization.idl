@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from lunabot/action/Localization.action
+// generated code does not contain a copyright notice
+
+
+module lunabot {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Localization_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Localization_Result {
+      double x;
+
+      double y;
+
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback ")
+    struct Localization_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

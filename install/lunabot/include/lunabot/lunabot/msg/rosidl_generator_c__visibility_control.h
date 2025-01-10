@@ -1,0 +1,1 @@
+/home/stupid/lunabot_ws/build/lunabot/rosidl_generator_c/lunabot/msg/rosidl_generator_c__visibility_control.h

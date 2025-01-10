@@ -1,0 +1,1 @@
+/home/stupid/lunabot_ws/build/lunabot/rosidl_cmake/rosidl_cmake-extras.cmake

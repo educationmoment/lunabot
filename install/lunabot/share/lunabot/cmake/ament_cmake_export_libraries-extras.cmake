@@ -1,0 +1,1 @@
+/home/stupid/lunabot_ws/build/lunabot/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

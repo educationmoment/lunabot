@@ -1,0 +1,1 @@
+/home/stupid/lunabot_ws/build/lunabot/rosidl_typesupport_introspection_c/lunabot/msg/rosidl_typesupport_introspection_c__visibility_control.h

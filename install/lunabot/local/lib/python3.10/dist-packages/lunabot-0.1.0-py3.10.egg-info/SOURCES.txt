@@ -1,0 +1,1 @@
+/home/stupid/lunabot_ws/build/lunabot/ament_cmake_python/lunabot/lunabot.egg-info/SOURCES.txt

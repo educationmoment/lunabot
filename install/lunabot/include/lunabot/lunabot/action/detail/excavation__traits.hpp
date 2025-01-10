@@ -1,0 +1,1 @@
+/home/stupid/lunabot_ws/build/lunabot/rosidl_generator_cpp/lunabot/action/detail/excavation__traits.hpp

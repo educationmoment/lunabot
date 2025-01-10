@@ -1,0 +1,295 @@
+[0.010s] Invoking command in '/home/stupid/lunabot_ws/build/lunabot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/stupid/lunabot_ws/build/lunabot -- -j20 -l20
+[0.024s] /usr/bin/cmake -S/home/stupid/lunabot_ws/src/lunabot -B/home/stupid/lunabot_ws/build/lunabot --check-build-system CMakeFiles/Makefile.cmake 0
+[0.033s] /usr/bin/cmake -E cmake_progress_start /home/stupid/lunabot_ws/build/lunabot/CMakeFiles /home/stupid/lunabot_ws/build/lunabot//CMakeFiles/progress.marks
+[0.038s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.039s] gmake[1]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.039s] /usr/bin/gmake  -f CMakeFiles/lunabot__cpp.dir/build.make CMakeFiles/lunabot__cpp.dir/depend
+[0.039s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_generator_c.dir/build.make CMakeFiles/lunabot__rosidl_generator_c.dir/depend
+[0.039s] /usr/bin/gmake  -f CMakeFiles/ament_cmake_python_symlink_lunabot.dir/build.make CMakeFiles/ament_cmake_python_symlink_lunabot.dir/depend
+[0.039s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.039s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__cpp.dir/DependInfo.cmake --color=
+[0.040s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.040s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/ament_cmake_python_symlink_lunabot.dir/DependInfo.cmake --color=
+[0.040s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.040s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_generator_c.dir/DependInfo.cmake --color=
+[0.045s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.045s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.045s] /usr/bin/gmake  -f CMakeFiles/lunabot__cpp.dir/build.make CMakeFiles/lunabot__cpp.dir/build
+[0.045s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.046s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_generator_c.dir/build.make CMakeFiles/lunabot__rosidl_generator_c.dir/build
+[0.046s] /usr/bin/gmake  -f CMakeFiles/ament_cmake_python_symlink_lunabot.dir/build.make CMakeFiles/ament_cmake_python_symlink_lunabot.dir/build
+[0.046s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.046s] /usr/bin/cmake -E create_symlink /home/stupid/lunabot_ws/build/lunabot/rosidl_generator_py/lunabot /home/stupid/lunabot_ws/build/lunabot/ament_cmake_python/lunabot/lunabot
+[0.046s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.046s] gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__cpp.dir/build'.
+[0.046s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.047s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.047s] gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_generator_c.dir/build'.
+[0.047s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.051s] [  6%] Built target lunabot__cpp
+[0.051s] [ 12%] Built target lunabot__rosidl_generator_c
+[0.052s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.052s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/depend
+[0.052s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/depend
+[0.052s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/depend
+[0.052s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/depend
+[0.052s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_c.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_c.dir/depend
+[0.053s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/depend
+[0.054s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.054s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.054s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=
+[0.054s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_c.dir/DependInfo.cmake --color=
+[0.054s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.054s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=
+[0.055s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.055s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=
+[0.055s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.055s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=
+[0.055s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.055s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=
+[0.056s] [ 12%] Built target ament_cmake_python_symlink_lunabot
+[0.057s] /usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_lunabot_egg.dir/build.make CMakeFiles/ament_cmake_python_build_lunabot_egg.dir/depend
+[0.058s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.058s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/ament_cmake_python_build_lunabot_egg.dir/DependInfo.cmake --color=
+[0.059s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.060s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.060s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/build
+[0.060s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/build
+[0.060s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.060s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_c.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_c.dir/build
+[0.060s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.060s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/build
+[0.061s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.061s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.061s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/build
+[0.061s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/build
+[0.061s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.061s] gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_c.dir/build'.
+[0.062s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.062s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.062s] gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/build'.
+[0.062s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.062s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.062s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.062s] gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/build'.
+[0.063s] gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/build'.
+[0.063s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.063s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.063s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.063s] gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/build'.
+[0.063s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.063s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.063s] gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/build'.
+[0.063s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.065s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.065s] /usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_lunabot_egg.dir/build.make CMakeFiles/ament_cmake_python_build_lunabot_egg.dir/build
+[0.066s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.066s] cd /home/stupid/lunabot_ws/build/lunabot/ament_cmake_python/lunabot && /usr/bin/python3 setup.py egg_info
+[0.069s] [ 57%] Built target lunabot__rosidl_typesupport_cpp
+[0.069s] [ 57%] Built target lunabot__rosidl_typesupport_introspection_cpp
+[0.069s] [ 57%] Built target lunabot__rosidl_typesupport_fastrtps_c
+[0.069s] [ 57%] Built target lunabot__rosidl_typesupport_c
+[0.069s] [ 65%] Built target lunabot__rosidl_typesupport_fastrtps_cpp
+[0.069s] [ 76%] Built target lunabot__rosidl_typesupport_introspection_c
+[0.069s] /usr/bin/gmake  -f CMakeFiles/lunabot.dir/build.make CMakeFiles/lunabot.dir/depend
+[0.070s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.071s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot.dir/DependInfo.cmake --color=
+[0.078s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.078s] /usr/bin/gmake  -f CMakeFiles/lunabot.dir/build.make CMakeFiles/lunabot.dir/build
+[0.079s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.079s] gmake[2]: Nothing to be done for 'CMakeFiles/lunabot.dir/build'.
+[0.079s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.087s] [ 76%] Built target lunabot
+[0.088s] /usr/bin/gmake  -f lunabot__py/CMakeFiles/lunabot__py.dir/build.make lunabot__py/CMakeFiles/lunabot__py.dir/depend
+[0.089s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.089s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot/lunabot__py /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/lunabot__py /home/stupid/lunabot_ws/build/lunabot/lunabot__py/CMakeFiles/lunabot__py.dir/DependInfo.cmake --color=
+[0.096s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.096s] /usr/bin/gmake  -f lunabot__py/CMakeFiles/lunabot__py.dir/build.make lunabot__py/CMakeFiles/lunabot__py.dir/build
+[0.097s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.098s] gmake[2]: Nothing to be done for 'lunabot__py/CMakeFiles/lunabot__py.dir/build'.
+[0.098s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.103s] [ 78%] Built target lunabot__py
+[0.103s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_generator_py.dir/build.make CMakeFiles/lunabot__rosidl_generator_py.dir/depend
+[0.105s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.105s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_generator_py.dir/DependInfo.cmake --color=
+[0.111s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.111s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_generator_py.dir/build.make CMakeFiles/lunabot__rosidl_generator_py.dir/build
+[0.113s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.113s] gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_generator_py.dir/build'.
+[0.113s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.118s] [ 87%] Built target lunabot__rosidl_generator_py
+[0.119s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/depend
+[0.119s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/depend
+[0.119s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/depend
+[0.120s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.120s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/DependInfo.cmake --color=
+[0.120s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.120s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake --color=
+[0.121s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.121s] cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/DependInfo.cmake --color=
+[0.126s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.126s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.126s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/build
+[0.126s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.126s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/build
+[0.126s] /usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/build
+[0.128s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.128s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.128s] gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.128s] gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/build'.
+[0.128s] gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/build'.
+[0.128s] gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/build'.
+[0.128s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.128s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.128s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.133s] [100%] Built target lunabot__rosidl_typesupport_fastrtps_c__pyext
+[0.133s] [100%] Built target lunabot__rosidl_typesupport_introspection_c__pyext
+[0.133s] [100%] Built target lunabot__rosidl_typesupport_c__pyext
+[0.254s] running egg_info
+[0.255s] writing lunabot.egg-info/PKG-INFO
+[0.255s] writing dependency_links to lunabot.egg-info/dependency_links.txt
+[0.255s] writing top-level names to lunabot.egg-info/top_level.txt
+[0.257s] reading manifest file 'lunabot.egg-info/SOURCES.txt'
+[0.258s] writing manifest file 'lunabot.egg-info/SOURCES.txt'
+[0.281s] gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.287s] [100%] Built target ament_cmake_python_build_lunabot_egg
+[0.287s] gmake[1]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'
+[0.288s] /usr/bin/cmake -E cmake_progress_start /home/stupid/lunabot_ws/build/lunabot/CMakeFiles 0
+[0.296s] Invoked command in '/home/stupid/lunabot_ws/build/lunabot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/stupid/lunabot_ws/build/lunabot -- -j20 -l20
+[0.303s] Invoking command in '/home/stupid/lunabot_ws/build/lunabot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/stupid/lunabot_ws/build/lunabot
+[0.308s] -- Install configuration: ""
+[0.309s] -- Execute custom install script
+[0.309s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/ament_index/resource_index/rosidl_interfaces/lunabot
+[0.309s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__functions.h
+[0.309s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__struct.h
+[0.309s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__type_support.h
+[0.310s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__functions.h
+[0.310s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__struct.h
+[0.310s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__type_support.h
+[0.310s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/excavation.h
+[0.310s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/localization.h
+[0.310s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__functions.h
+[0.310s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__struct.h
+[0.310s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__type_support.h
+[0.310s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/duty_cycle_output.h
+[0.310s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/rosidl_generator_c__visibility_control.h
+[0.311s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/library_path.sh
+[0.311s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/library_path.dsv
+[0.311s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__rosidl_typesupport_fastrtps_c.h
+[0.311s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__rosidl_typesupport_fastrtps_c.h
+[0.311s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__rosidl_typesupport_fastrtps_c.h
+[0.311s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.311s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__builder.hpp
+[0.311s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__struct.hpp
+[0.312s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__traits.hpp
+[0.312s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__type_support.hpp
+[0.312s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__builder.hpp
+[0.312s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__struct.hpp
+[0.312s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__traits.hpp
+[0.312s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__type_support.hpp
+[0.312s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/excavation.hpp
+[0.313s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/localization.hpp
+[0.313s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__builder.hpp
+[0.313s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__struct.hpp
+[0.313s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__traits.hpp
+[0.313s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__type_support.hpp
+[0.313s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/duty_cycle_output.hpp
+[0.314s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.314s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__rosidl_typesupport_fastrtps_cpp.hpp
+[0.314s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__rosidl_typesupport_fastrtps_cpp.hpp
+[0.314s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__rosidl_typesupport_fastrtps_cpp.hpp
+[0.314s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.314s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__rosidl_typesupport_introspection_c.h
+[0.314s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__rosidl_typesupport_introspection_c.h
+[0.315s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__rosidl_typesupport_introspection_c.h
+[0.315s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.315s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__rosidl_typesupport_introspection_cpp.hpp
+[0.315s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__rosidl_typesupport_introspection_cpp.hpp
+[0.315s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__rosidl_typesupport_introspection_cpp.hpp
+[0.315s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/pythonpath.sh
+[0.315s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/pythonpath.dsv
+[0.316s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot-0.1.0-py3.10.egg-info/PKG-INFO
+[0.316s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.316s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.316s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot-0.1.0-py3.10.egg-info/top_level.txt
+[0.316s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/__init__.py
+[0.316s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/_lunabot_s.ep.rosidl_typesupport_c.c
+[0.316s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/_lunabot_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.317s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/_lunabot_s.ep.rosidl_typesupport_introspection_c.c
+[0.317s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/action/__init__.py
+[0.317s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/action/_excavation.py
+[0.317s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/action/_excavation_s.c
+[0.317s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/action/_localization.py
+[0.317s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/action/_localization_s.c
+[0.317s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/liblunabot__rosidl_generator_py.so
+[0.318s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/lunabot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.318s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/lunabot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.318s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/lunabot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.318s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/msg/__init__.py
+[0.318s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/msg/_duty_cycle_output.py
+[0.318s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/msg/_duty_cycle_output_s.c
+[0.318s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/lunabot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.318s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/lunabot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.318s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/lunabot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.318s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/msg/DutyCycleOutput.idl
+[0.319s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/action/Localization.idl
+[0.319s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/action/Excavation.idl
+[0.319s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/msg/DutyCycleOutput.msg
+[0.319s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/action/Localization.action
+[0.319s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/action/Excavation.action
+[0.319s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/lib/lunabot/canable_start.sh
+[0.319s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/lib/lunabot/excavation_server.py
+[0.320s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/lib/lunabot/localization_server.py
+[0.320s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/lib/lunabot/navagation_client.py
+[0.320s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/lib/lunabot/testcontrol.py
+[0.320s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/ament_index/resource_index/package_run_dependencies/lunabot
+[0.320s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/ament_index/resource_index/parent_prefix_path/lunabot
+[0.320s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/ament_prefix_path.sh
+[0.320s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/ament_prefix_path.dsv
+[0.320s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/path.sh
+[0.320s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/path.dsv
+[0.320s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/local_setup.bash
+[0.320s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/local_setup.sh
+[0.320s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/local_setup.zsh
+[0.320s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/local_setup.dsv
+[0.320s] -- Symlinking: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/package.dsv
+[0.325s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/ament_index/resource_index/packages/lunabot
+[0.325s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/rosidl_cmake-extras.cmake
+[0.326s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.326s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.326s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/ament_cmake_export_libraries-extras.cmake
+[0.326s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/ament_cmake_export_targets-extras.cmake
+[0.326s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.326s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.326s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabotConfig.cmake
+[0.326s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabotConfig-version.cmake
+[0.327s] -- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/package.xml
+[0.327s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_generator_c.so
+[0.327s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_typesupport_fastrtps_c.so
+[0.327s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_typesupport_fastrtps_cpp.so
+[0.327s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_typesupport_introspection_c.so
+[0.327s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_typesupport_c.so
+[0.327s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_typesupport_introspection_cpp.so
+[0.327s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_typesupport_cpp.so
+[0.351s] Listing '/home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot'...
+[0.351s] Listing '/home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/action'...
+[0.351s] Listing '/home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/msg'...
+[0.356s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_generator_py.so
+[0.357s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_generator_cExport.cmake
+[0.357s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_generator_cExport-noconfig.cmake
+[0.357s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_typesupport_fastrtps_cExport.cmake
+[0.357s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.357s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_generator_cppExport.cmake
+[0.358s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.358s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.358s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_introspection_cExport.cmake
+[0.358s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.358s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_cExport.cmake
+[0.358s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_cExport-noconfig.cmake
+[0.358s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_introspection_cppExport.cmake
+[0.358s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.358s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_cppExport.cmake
+[0.358s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_cppExport-noconfig.cmake
+[0.358s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_generator_pyExport.cmake
+[0.358s] -- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_generator_pyExport-noconfig.cmake
+[0.359s] Invoked command in '/home/stupid/lunabot_ws/build/lunabot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/stupid/lunabot_ws/build/lunabot

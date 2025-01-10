@@ -1,0 +1,1 @@
+/home/stupid/lunabot_ws/build/lunabot/rosidl_typesupport_introspection_c/lunabot/action/detail/excavation__rosidl_typesupport_introspection_c.h

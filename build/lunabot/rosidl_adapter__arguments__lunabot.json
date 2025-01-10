@@ -1,0 +1,8 @@
+{
+  "package_name": "lunabot",
+  "non_idl_tuples": [
+    "/home/stupid/lunabot_ws/src/lunabot:msg/DutyCycleOutput.msg",
+    "/home/stupid/lunabot_ws/src/lunabot:action/Localization.action",
+    "/home/stupid/lunabot_ws/src/lunabot:action/Excavation.action"
+  ]
+}

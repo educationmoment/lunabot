@@ -1,0 +1,452 @@
+[0.000000] (-) TimerEvent: {}
+[0.000346] (lunabot) JobQueued: {'identifier': 'lunabot', 'dependencies': OrderedDict()}
+[0.000392] (lunabot) JobStarted: {'identifier': 'lunabot'}
+[0.005473] (lunabot) JobProgress: {'identifier': 'lunabot', 'progress': 'cmake'}
+[0.006058] (lunabot) Command: {'cmd': ['/usr/bin/cmake', '/home/stupid/lunabot_ws/src/lunabot', '-DCMAKE_INSTALL_PREFIX=/home/stupid/lunabot_ws/install/lunabot'], 'cwd': '/home/stupid/lunabot_ws/build/lunabot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'stupid'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/stupid/lunabot_ws/install/lunabot/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/stupid'), ('OLDPWD', '/home/stupid/lunabot_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/stupid/lunabot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'stupid'), ('NAME', 'DESKTOP-P7JPLCA'), ('WSL_INTEROP', '/run/WSL/372_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/stupid/lunabot_ws/src/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/stupid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.3.7-hotspot/bin:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.2.1/:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Mullvad VPN/resources:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/admin/AppData/Local/pnpm:/mnt/c/Users/admin/.cargo/bin:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/adm:/mnt/c/Users/admin/.dotnet/tools:/mnt/c/Program Files/qemu:/mnt/c/Users/admin/.dotnet/tools:/mnt/c/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/admin/AppData/Roaming/npm:/mnt/c/Users/admin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/Program Files/CMake/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/stupid/lunabot_ws/install/lunabot'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/stupid/lunabot_ws/build/lunabot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/stupid/lunabot_ws/install/lunabot/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/stupid/lunabot_ws/install/lunabot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.014690] (lunabot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.089785] (lunabot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.094358] (lunabot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099228] (-) TimerEvent: {}
+[0.199495] (-) TimerEvent: {}
+[0.240709] (lunabot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.242334] (lunabot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.246300] (lunabot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.252869] (lunabot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.261418] (lunabot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.283597] (lunabot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.284493] (lunabot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299604] (-) TimerEvent: {}
+[0.399872] (-) TimerEvent: {}
+[0.500176] (-) TimerEvent: {}
+[0.600493] (-) TimerEvent: {}
+[0.700803] (-) TimerEvent: {}
+[0.801063] (-) TimerEvent: {}
+[0.901307] (-) TimerEvent: {}
+[1.001552] (-) TimerEvent: {}
+[1.101815] (-) TimerEvent: {}
+[1.202062] (-) TimerEvent: {}
+[1.302300] (-) TimerEvent: {}
+[1.402543] (-) TimerEvent: {}
+[1.502798] (-) TimerEvent: {}
+[1.603020] (-) TimerEvent: {}
+[1.703236] (-) TimerEvent: {}
+[1.803467] (-) TimerEvent: {}
+[1.903702] (-) TimerEvent: {}
+[2.003940] (-) TimerEvent: {}
+[2.104178] (-) TimerEvent: {}
+[2.204411] (-) TimerEvent: {}
+[2.304648] (-) TimerEvent: {}
+[2.404901] (-) TimerEvent: {}
+[2.505151] (-) TimerEvent: {}
+[2.605386] (-) TimerEvent: {}
+[2.705619] (-) TimerEvent: {}
+[2.805862] (-) TimerEvent: {}
+[2.906101] (-) TimerEvent: {}
+[3.006354] (-) TimerEvent: {}
+[3.106612] (-) TimerEvent: {}
+[3.206852] (-) TimerEvent: {}
+[3.307091] (-) TimerEvent: {}
+[3.407341] (-) TimerEvent: {}
+[3.507600] (-) TimerEvent: {}
+[3.607852] (-) TimerEvent: {}
+[3.708112] (-) TimerEvent: {}
+[3.808353] (-) TimerEvent: {}
+[3.908586] (-) TimerEvent: {}
+[4.008819] (-) TimerEvent: {}
+[4.109056] (-) TimerEvent: {}
+[4.209315] (-) TimerEvent: {}
+[4.309580] (-) TimerEvent: {}
+[4.409832] (-) TimerEvent: {}
+[4.510068] (-) TimerEvent: {}
+[4.610324] (-) TimerEvent: {}
+[4.710564] (-) TimerEvent: {}
+[4.810799] (-) TimerEvent: {}
+[4.911065] (-) TimerEvent: {}
+[5.011333] (-) TimerEvent: {}
+[5.111571] (-) TimerEvent: {}
+[5.211807] (-) TimerEvent: {}
+[5.312051] (-) TimerEvent: {}
+[5.412317] (-) TimerEvent: {}
+[5.512568] (-) TimerEvent: {}
+[5.612800] (-) TimerEvent: {}
+[5.713033] (-) TimerEvent: {}
+[5.813261] (-) TimerEvent: {}
+[5.913502] (-) TimerEvent: {}
+[6.013728] (-) TimerEvent: {}
+[6.113968] (-) TimerEvent: {}
+[6.214245] (-) TimerEvent: {}
+[6.297621] (lunabot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.314343] (-) TimerEvent: {}
+[6.332764] (lunabot) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[6.341507] (lunabot) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.17 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[6.385821] (lunabot) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.414394] (-) TimerEvent: {}
+[6.514720] (-) TimerEvent: {}
+[6.593306] (lunabot) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.614791] (-) TimerEvent: {}
+[6.714982] (-) TimerEvent: {}
+[6.815213] (-) TimerEvent: {}
+[6.868021] (lunabot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.915249] (-) TimerEvent: {}
+[6.976890] (lunabot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.991974] (lunabot) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.006205] (lunabot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.006302] (lunabot) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.006351] (lunabot) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[7.015318] (-) TimerEvent: {}
+[7.042302] (lunabot) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.066985] (lunabot) StdoutLine: {'line': b'-- Generating done\n'}
+[7.076174] (lunabot) StdoutLine: {'line': b'-- Build files have been written to: /home/stupid/lunabot_ws/build/lunabot\n'}
+[7.082230] (lunabot) CommandEnded: {'returncode': 0}
+[7.082709] (lunabot) JobProgress: {'identifier': 'lunabot', 'progress': 'build'}
+[7.083764] (lunabot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stupid/lunabot_ws/build/lunabot', '--', '-j20', '-l20'], 'cwd': '/home/stupid/lunabot_ws/build/lunabot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'stupid'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/stupid/lunabot_ws/install/lunabot/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/stupid'), ('OLDPWD', '/home/stupid/lunabot_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/stupid/lunabot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'stupid'), ('NAME', 'DESKTOP-P7JPLCA'), ('WSL_INTEROP', '/run/WSL/372_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/stupid/lunabot_ws/src/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/stupid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.3.7-hotspot/bin:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.2.1/:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Mullvad VPN/resources:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/admin/AppData/Local/pnpm:/mnt/c/Users/admin/.cargo/bin:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/adm:/mnt/c/Users/admin/.dotnet/tools:/mnt/c/Program Files/qemu:/mnt/c/Users/admin/.dotnet/tools:/mnt/c/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/admin/AppData/Roaming/npm:/mnt/c/Users/admin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/Program Files/CMake/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/stupid/lunabot_ws/install/lunabot'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/stupid/lunabot_ws/build/lunabot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/stupid/lunabot_ws/install/lunabot/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/stupid/lunabot_ws/install/lunabot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[7.093039] (lunabot) StdoutLine: {'line': b'/usr/bin/cmake -S/home/stupid/lunabot_ws/src/lunabot -B/home/stupid/lunabot_ws/build/lunabot --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[7.099140] (lunabot) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/stupid/lunabot_ws/build/lunabot/CMakeFiles /home/stupid/lunabot_ws/build/lunabot//CMakeFiles/progress.marks\n'}
+[7.103041] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[7.103969] (lunabot) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.104041] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__cpp.dir/build.make CMakeFiles/lunabot__cpp.dir/depend\n'}
+[7.104240] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_generator_c.dir/build.make CMakeFiles/lunabot__rosidl_generator_c.dir/depend\n'}
+[7.104469] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_symlink_lunabot.dir/build.make CMakeFiles/ament_cmake_python_symlink_lunabot.dir/depend\n'}
+[7.104863] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.104935] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__cpp.dir/DependInfo.cmake --color=\n'}
+[7.105133] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.105247] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/ament_cmake_python_symlink_lunabot.dir/DependInfo.cmake --color=\n'}
+[7.105307] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.105356] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_generator_c.dir/DependInfo.cmake --color=\n'}
+[7.109143] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_generator_c.dir/rosidl_generator_c/lunabot/action/detail/excavation__functions.c.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_generator_c.dir/compiler_depend.internal".\n'}
+[7.109257] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_generator_c.dir/rosidl_generator_c/lunabot/action/detail/localization__functions.c.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_generator_c.dir/compiler_depend.internal".\n'}
+[7.109539] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_generator_c.dir/rosidl_generator_c/lunabot/msg/detail/duty_cycle_output__functions.c.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_generator_c.dir/compiler_depend.internal".\n'}
+[7.109686] (lunabot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lunabot__rosidl_generator_c\x1b[0m\n'}
+[7.109757] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.109908] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.109958] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__cpp.dir/build.make CMakeFiles/lunabot__cpp.dir/build\n'}
+[7.110003] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_symlink_lunabot.dir/build.make CMakeFiles/ament_cmake_python_symlink_lunabot.dir/build\n'}
+[7.110423] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.110588] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_generator_c.dir/build.make CMakeFiles/lunabot__rosidl_generator_c.dir/build\n'}
+[7.110684] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.110780] (lunabot) StdoutLine: {'line': b'/usr/bin/cmake -E create_symlink /home/stupid/lunabot_ws/build/lunabot/rosidl_generator_py/lunabot /home/stupid/lunabot_ws/build/lunabot/ament_cmake_python/lunabot/lunabot\n'}
+[7.110969] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.111040] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__cpp.dir/build'.\n"}
+[7.111134] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.111757] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.111826] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_generator_c.dir/build'.\n"}
+[7.111874] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.114580] (lunabot) StdoutLine: {'line': b'[  2%] Built target lunabot__cpp\n'}
+[7.114757] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.115072] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/depend\n'}
+[7.115233] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/depend\n'}
+[7.115417] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/depend\n'}
+[7.115551] (-) TimerEvent: {}
+[7.115709] (lunabot) StdoutLine: {'line': b'[ 12%] Built target lunabot__rosidl_generator_c\n'}
+[7.115982] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/depend\n'}
+[7.116063] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.116292] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=\n'}
+[7.116497] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/depend\n'}
+[7.116567] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.116618] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=\n'}
+[7.116671] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_c.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_c.dir/depend\n'}
+[7.116717] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.116762] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=\n'}
+[7.116958] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.117097] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=\n'}
+[7.117348] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.117419] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=\n'}
+[7.117472] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.117518] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_c.dir/DependInfo.cmake --color=\n'}
+[7.118987] (lunabot) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_lunabot\n'}
+[7.119497] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_lunabot_egg.dir/build.make CMakeFiles/ament_cmake_python_build_lunabot_egg.dir/depend\n'}
+[7.120110] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lunabot/action/excavation__type_support.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/compiler_depend.internal".\n'}
+[7.120376] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.120445] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/ament_cmake_python_build_lunabot_egg.dir/DependInfo.cmake --color=\n'}
+[7.120518] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lunabot/action/localization__type_support.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/compiler_depend.internal".\n'}
+[7.120713] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lunabot/msg/duty_cycle_output__type_support.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/compiler_depend.internal".\n'}
+[7.120834] (lunabot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lunabot__rosidl_typesupport_cpp\x1b[0m\n'}
+[7.121125] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_c.dir/rosidl_typesupport_c/lunabot/action/excavation__type_support.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_c.dir/compiler_depend.internal".\n'}
+[7.121288] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lunabot/action/detail/excavation__type_support.c.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/compiler_depend.internal".\n'}
+[7.121379] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lunabot/action/detail/excavation__type_support_c.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/compiler_depend.internal".\n'}
+[7.121482] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lunabot/action/detail/localization__type_support.c.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/compiler_depend.internal".\n'}
+[7.121713] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_c.dir/rosidl_typesupport_c/lunabot/action/localization__type_support.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_c.dir/compiler_depend.internal".\n'}
+[7.121859] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lunabot/action/detail/localization__type_support_c.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/compiler_depend.internal".\n'}
+[7.122000] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lunabot/msg/detail/duty_cycle_output__type_support.c.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/compiler_depend.internal".\n'}
+[7.122140] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_c.dir/rosidl_typesupport_c/lunabot/msg/duty_cycle_output__type_support.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_c.dir/compiler_depend.internal".\n'}
+[7.122328] (lunabot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lunabot__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.122474] (lunabot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lunabot__rosidl_typesupport_c\x1b[0m\n'}
+[7.122614] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lunabot/msg/detail/duty_cycle_output__type_support_c.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/compiler_depend.internal".\n'}
+[7.122706] (lunabot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lunabot__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.122755] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lunabot/action/detail/dds_fastrtps/excavation__type_support.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.internal".\n'}
+[7.122940] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lunabot/action/detail/excavation__type_support.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/compiler_depend.internal".\n'}
+[7.123113] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lunabot/action/detail/localization__type_support.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/compiler_depend.internal".\n'}
+[7.123180] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lunabot/action/detail/dds_fastrtps/localization__type_support.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.internal".\n'}
+[7.123229] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lunabot/msg/detail/duty_cycle_output__type_support.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/compiler_depend.internal".\n'}
+[7.123274] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lunabot/msg/detail/dds_fastrtps/duty_cycle_output__type_support.cpp.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.internal".\n'}
+[7.123319] (lunabot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lunabot__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[7.123361] (lunabot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lunabot__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.123403] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.123451] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.123494] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.123535] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/build\n'}
+[7.123578] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/build\n'}
+[7.123620] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_c.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_c.dir/build\n'}
+[7.123789] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.124001] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/build\n'}
+[7.124246] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.124317] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_introspection_c.dir/build'.\n"}
+[7.124368] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.124418] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.124463] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_c.dir/build'.\n"}
+[7.124596] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.124810] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.124908] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_cpp.dir/build'.\n"}
+[7.124985] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.125155] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.125290] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_lunabot_egg.dir/build.make CMakeFiles/ament_cmake_python_build_lunabot_egg.dir/build\n'}
+[7.125572] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.125704] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/build\n'}
+[7.125978] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.126152] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c.dir/build'.\n"}
+[7.126225] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.126276] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.126323] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.126374] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot/ament_cmake_python/lunabot && /usr/bin/python3 setup.py egg_info\n'}
+[7.126419] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/build\n'}
+[7.127524] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.127596] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_introspection_cpp.dir/build'.\n"}
+[7.127680] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.127978] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.128054] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_fastrtps_cpp.dir/build'.\n"}
+[7.128105] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.128791] (lunabot) StdoutLine: {'line': b'[ 23%] Built target lunabot__rosidl_typesupport_c\n'}
+[7.129599] (lunabot) StdoutLine: {'line': b'[ 34%] Built target lunabot__rosidl_typesupport_introspection_c\n'}
+[7.129739] (lunabot) StdoutLine: {'line': b'[ 48%] Built target lunabot__rosidl_typesupport_fastrtps_c\n'}
+[7.129858] (lunabot) StdoutLine: {'line': b'[ 55%] Built target lunabot__rosidl_typesupport_cpp\n'}
+[7.131556] (lunabot) StdoutLine: {'line': b'[ 65%] Built target lunabot__rosidl_typesupport_introspection_cpp\n'}
+[7.132010] (lunabot) StdoutLine: {'line': b'[ 76%] Built target lunabot__rosidl_typesupport_fastrtps_cpp\n'}
+[7.132432] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot.dir/build.make CMakeFiles/lunabot.dir/depend\n'}
+[7.133213] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.133280] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot.dir/DependInfo.cmake --color=\n'}
+[7.137716] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.137938] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot.dir/build.make CMakeFiles/lunabot.dir/build\n'}
+[7.138657] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.138728] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/lunabot.dir/build'.\n"}
+[7.138784] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.142689] (lunabot) StdoutLine: {'line': b'[ 76%] Built target lunabot\n'}
+[7.143154] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f lunabot__py/CMakeFiles/lunabot__py.dir/build.make lunabot__py/CMakeFiles/lunabot__py.dir/depend\n'}
+[7.143981] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.144073] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot/lunabot__py /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/lunabot__py /home/stupid/lunabot_ws/build/lunabot/lunabot__py/CMakeFiles/lunabot__py.dir/DependInfo.cmake --color=\n'}
+[7.148519] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.148658] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f lunabot__py/CMakeFiles/lunabot__py.dir/build.make lunabot__py/CMakeFiles/lunabot__py.dir/build\n'}
+[7.149520] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.149578] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'lunabot__py/CMakeFiles/lunabot__py.dir/build'.\n"}
+[7.149624] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.153643] (lunabot) StdoutLine: {'line': b'[ 78%] Built target lunabot__py\n'}
+[7.154078] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_generator_py.dir/build.make CMakeFiles/lunabot__rosidl_generator_py.dir/depend\n'}
+[7.154880] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.154949] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_generator_py.dir/DependInfo.cmake --color=\n'}
+[7.158975] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_generator_py.dir/rosidl_generator_py/lunabot/action/_excavation_s.c.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_generator_py.dir/compiler_depend.internal".\n'}
+[7.159139] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_generator_py.dir/rosidl_generator_py/lunabot/action/_localization_s.c.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_generator_py.dir/compiler_depend.internal".\n'}
+[7.159259] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_generator_py.dir/rosidl_generator_py/lunabot/msg/_duty_cycle_output_s.c.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_generator_py.dir/compiler_depend.internal".\n'}
+[7.159437] (lunabot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lunabot__rosidl_generator_py\x1b[0m\n'}
+[7.161364] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.161513] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_generator_py.dir/build.make CMakeFiles/lunabot__rosidl_generator_py.dir/build\n'}
+[7.163054] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.163119] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_generator_py.dir/build'.\n"}
+[7.163167] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.167267] (lunabot) StdoutLine: {'line': b'[ 87%] Built target lunabot__rosidl_generator_py\n'}
+[7.167718] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/depend\n'}
+[7.167955] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/depend\n'}
+[7.168158] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/depend\n'}
+[7.168594] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.168676] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/DependInfo.cmake --color=\n'}
+[7.168910] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.168997] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake --color=\n'}
+[7.169058] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.169104] (lunabot) StdoutLine: {'line': b'cd /home/stupid/lunabot_ws/build/lunabot && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/src/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot /home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/DependInfo.cmake --color=\n'}
+[7.173115] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lunabot/_lunabot_s.ep.rosidl_typesupport_c.c.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/compiler_depend.internal".\n'}
+[7.173248] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lunabot/_lunabot_s.ep.rosidl_typesupport_introspection_c.c.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/compiler_depend.internal".\n'}
+[7.173397] (lunabot) StdoutLine: {'line': b'Dependencies file "CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lunabot/_lunabot_s.ep.rosidl_typesupport_fastrtps_c.c.o.d" is newer than depends file "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/compiler_depend.internal".\n'}
+[7.173551] (lunabot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lunabot__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.173603] (lunabot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lunabot__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.173655] (lunabot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lunabot__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.174829] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.174946] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.175004] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.175141] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/build\n'}
+[7.175344] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/build\n'}
+[7.175408] (lunabot) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/build\n'}
+[7.176368] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.176437] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_introspection_c__pyext.dir/build'.\n"}
+[7.176555] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.176690] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.176823] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_fastrtps_c__pyext.dir/build'.\n"}
+[7.176984] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.177042] (lunabot) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.177090] (lunabot) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/lunabot__rosidl_typesupport_c__pyext.dir/build'.\n"}
+[7.177135] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.180755] (lunabot) StdoutLine: {'line': b'[100%] Built target lunabot__rosidl_typesupport_introspection_c__pyext\n'}
+[7.180847] (lunabot) StdoutLine: {'line': b'[100%] Built target lunabot__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.180938] (lunabot) StdoutLine: {'line': b'[100%] Built target lunabot__rosidl_typesupport_c__pyext\n'}
+[7.215630] (-) TimerEvent: {}
+[7.289871] (lunabot) StdoutLine: {'line': b'running egg_info\n'}
+[7.290439] (lunabot) StdoutLine: {'line': b'writing lunabot.egg-info/PKG-INFO\n'}
+[7.290664] (lunabot) StdoutLine: {'line': b'writing dependency_links to lunabot.egg-info/dependency_links.txt\n'}
+[7.290938] (lunabot) StdoutLine: {'line': b'writing top-level names to lunabot.egg-info/top_level.txt\n'}
+[7.292145] (lunabot) StdoutLine: {'line': b"reading manifest file 'lunabot.egg-info/SOURCES.txt'\n"}
+[7.292596] (lunabot) StdoutLine: {'line': b"writing manifest file 'lunabot.egg-info/SOURCES.txt'\n"}
+[7.303348] (lunabot) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.307824] (lunabot) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_lunabot_egg\n'}
+[7.308288] (lunabot) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/stupid/lunabot_ws/build/lunabot'\n"}
+[7.308519] (lunabot) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/stupid/lunabot_ws/build/lunabot/CMakeFiles 0\n'}
+[7.314495] (lunabot) CommandEnded: {'returncode': 0}
+[7.315019] (lunabot) JobProgress: {'identifier': 'lunabot', 'progress': 'install'}
+[7.315713] (-) TimerEvent: {}
+[7.320358] (lunabot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/stupid/lunabot_ws/build/lunabot'], 'cwd': '/home/stupid/lunabot_ws/build/lunabot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'stupid'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/stupid/lunabot_ws/install/lunabot/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/stupid'), ('OLDPWD', '/home/stupid/lunabot_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/stupid/lunabot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'stupid'), ('NAME', 'DESKTOP-P7JPLCA'), ('WSL_INTEROP', '/run/WSL/372_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/stupid/lunabot_ws/src/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/stupid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.3.7-hotspot/bin:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.2.1/:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Mullvad VPN/resources:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/admin/AppData/Local/pnpm:/mnt/c/Users/admin/.cargo/bin:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/adm:/mnt/c/Users/admin/.dotnet/tools:/mnt/c/Program Files/qemu:/mnt/c/Users/admin/.dotnet/tools:/mnt/c/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/admin/AppData/Roaming/npm:/mnt/c/Users/admin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/Program Files/CMake/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/stupid/lunabot_ws/install/lunabot'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/stupid/lunabot_ws/build/lunabot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/stupid/lunabot_ws/install/lunabot/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/stupid/lunabot_ws/install/lunabot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[7.323843] (lunabot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.324225] (lunabot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.324395] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/ament_index/resource_index/rosidl_interfaces/lunabot\n'}
+[7.324688] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__functions.h\n'}
+[7.324984] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__struct.h\n'}
+[7.325068] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__type_support.h\n'}
+[7.325246] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__functions.h\n'}
+[7.325454] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__struct.h\n'}
+[7.325558] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__type_support.h\n'}
+[7.325647] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/excavation.h\n'}
+[7.325730] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/localization.h\n'}
+[7.325821] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__functions.h\n'}
+[7.325874] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__struct.h\n'}
+[7.326082] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__type_support.h\n'}
+[7.326152] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/duty_cycle_output.h\n'}
+[7.326201] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.326279] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/library_path.sh\n'}
+[7.326354] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/library_path.dsv\n'}
+[7.326549] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__rosidl_typesupport_fastrtps_c.h\n'}
+[7.326605] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__rosidl_typesupport_fastrtps_c.h\n'}
+[7.326652] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__rosidl_typesupport_fastrtps_c.h\n'}
+[7.326781] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.327074] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__builder.hpp\n'}
+[7.327268] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__struct.hpp\n'}
+[7.327471] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__traits.hpp\n'}
+[7.327680] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__type_support.hpp\n'}
+[7.328047] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__builder.hpp\n'}
+[7.328115] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__struct.hpp\n'}
+[7.328163] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__traits.hpp\n'}
+[7.328207] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__type_support.hpp\n'}
+[7.328252] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/excavation.hpp\n'}
+[7.328422] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/localization.hpp\n'}
+[7.328481] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__builder.hpp\n'}
+[7.328664] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__struct.hpp\n'}
+[7.328713] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__traits.hpp\n'}
+[7.328764] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__type_support.hpp\n'}
+[7.328888] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/duty_cycle_output.hpp\n'}
+[7.329056] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.329216] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.329269] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.329439] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.329488] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.329650] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__rosidl_typesupport_introspection_c.h\n'}
+[7.329720] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__rosidl_typesupport_introspection_c.h\n'}
+[7.329857] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__rosidl_typesupport_introspection_c.h\n'}
+[7.329903] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.330076] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/excavation__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.330290] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/action/detail/localization__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.330351] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/include/lunabot/lunabot/msg/detail/duty_cycle_output__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.330431] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/pythonpath.sh\n'}
+[7.330485] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/pythonpath.dsv\n'}
+[7.330529] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[7.330572] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.330703] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.330834] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[7.331044] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/__init__.py\n'}
+[7.331314] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/_lunabot_s.ep.rosidl_typesupport_c.c\n'}
+[7.331501] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/_lunabot_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.331683] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/_lunabot_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.331818] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/action/__init__.py\n'}
+[7.331948] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/action/_excavation.py\n'}
+[7.332131] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/action/_excavation_s.c\n'}
+[7.332178] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/action/_localization.py\n'}
+[7.332265] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/action/_localization_s.c\n'}
+[7.332535] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/liblunabot__rosidl_generator_py.so\n'}
+[7.332675] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/lunabot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.332808] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/lunabot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.333029] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/lunabot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.333086] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/msg/__init__.py\n'}
+[7.333217] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/msg/_duty_cycle_output.py\n'}
+[7.333348] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/msg/_duty_cycle_output_s.c\n'}
+[7.333486] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/lunabot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.333616] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/lunabot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.333746] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/lunabot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.333876] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/msg/DutyCycleOutput.idl\n'}
+[7.334005] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/action/Localization.idl\n'}
+[7.334134] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/action/Excavation.idl\n'}
+[7.334264] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/msg/DutyCycleOutput.msg\n'}
+[7.334394] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/action/Localization.action\n'}
+[7.334621] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/action/Excavation.action\n'}
+[7.334692] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/lib/lunabot/canable_start.sh\n'}
+[7.334740] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/lib/lunabot/excavation_server.py\n'}
+[7.334783] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/lib/lunabot/localization_server.py\n'}
+[7.334830] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/lib/lunabot/navagation_client.py\n'}
+[7.334872] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/lib/lunabot/testcontrol.py\n'}
+[7.334914] (lunabot) StdoutLine: {'line': b'-- Symlinking: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/launch/__pycache__/slam_simulation_launch.cpython-310.pyc\n'}
+[7.338620] (lunabot) StdoutLine: {'line': b'-- Symlinking: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/launch/slam_simulation_launch.py\n'}
+[7.343087] (lunabot) StdoutLine: {'line': b'-- Symlinking: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/urdf/trencher_bot.urdf\n'}
+[7.347040] (lunabot) StdoutLine: {'line': b'-- Symlinking: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/urdf/trencher_bot.urdf.xacro\n'}
+[7.351195] (lunabot) StdoutLine: {'line': b'-- Symlinking: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/urdf/trencher_bot_body.dae\n'}
+[7.355204] (lunabot) StdoutLine: {'line': b'-- Symlinking: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/urdf/trencher_bot_body.stl\n'}
+[7.359273] (lunabot) StdoutLine: {'line': b'-- Symlinking: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/urdf/trencher_bot_d455_camera.stl\n'}
+[7.363615] (lunabot) StdoutLine: {'line': b'-- Symlinking: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/worlds/moon.world\n'}
+[7.367778] (lunabot) StdoutLine: {'line': b'-- Symlinking: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/rviz/slam_config.rviz\n'}
+[7.371963] (lunabot) StdoutLine: {'line': b'-- Symlinking: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/config/slam_toolbox_config.yaml\n'}
+[7.376037] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/ament_index/resource_index/package_run_dependencies/lunabot\n'}
+[7.376193] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/ament_index/resource_index/parent_prefix_path/lunabot\n'}
+[7.376408] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/ament_prefix_path.sh\n'}
+[7.376523] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/ament_prefix_path.dsv\n'}
+[7.376699] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/path.sh\n'}
+[7.376787] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/environment/path.dsv\n'}
+[7.376940] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/local_setup.bash\n'}
+[7.377172] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/local_setup.sh\n'}
+[7.377276] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/local_setup.zsh\n'}
+[7.377329] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/local_setup.dsv\n'}
+[7.377373] (lunabot) StdoutLine: {'line': b'-- Symlinking: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/package.dsv\n'}
+[7.381387] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/ament_index/resource_index/packages/lunabot\n'}
+[7.381598] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/rosidl_cmake-extras.cmake\n'}
+[7.381772] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.381942] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.382075] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.382303] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.382434] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.382563] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.382788] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabotConfig.cmake\n'}
+[7.382859] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabotConfig-version.cmake\n'}
+[7.382993] (lunabot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/package.xml\n'}
+[7.383123] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_generator_c.so\n'}
+[7.383253] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_typesupport_fastrtps_c.so\n'}
+[7.383548] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.383619] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_typesupport_introspection_c.so\n'}
+[7.383700] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_typesupport_c.so\n'}
+[7.383748] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_typesupport_introspection_cpp.so\n'}
+[7.383791] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_typesupport_cpp.so\n'}
+[7.403902] (lunabot) StdoutLine: {'line': b"Listing '/home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot'...\n"}
+[7.403996] (lunabot) StdoutLine: {'line': b"Compiling '/home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/__init__.py'...\n"}
+[7.404046] (lunabot) StdoutLine: {'line': b"Listing '/home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/action'...\n"}
+[7.404090] (lunabot) StdoutLine: {'line': b"Listing '/home/stupid/lunabot_ws/install/lunabot/local/lib/python3.10/dist-packages/lunabot/msg'...\n"}
+[7.406510] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/lib/liblunabot__rosidl_generator_py.so\n'}
+[7.406822] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_generator_cExport.cmake\n'}
+[7.407091] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.407172] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.407244] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.407332] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_generator_cppExport.cmake\n'}
+[7.407409] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.407487] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.407703] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.407752] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.407795] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_cExport.cmake\n'}
+[7.407838] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.407880] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.407922] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.407963] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_cppExport.cmake\n'}
+[7.408004] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/lunabot__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.408046] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_generator_pyExport.cmake\n'}
+[7.408087] (lunabot) StdoutLine: {'line': b'-- Up-to-date: /home/stupid/lunabot_ws/install/lunabot/share/lunabot/cmake/export_lunabot__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.408873] (lunabot) CommandEnded: {'returncode': 0}
+[7.416002] (-) TimerEvent: {}
+[7.422641] (lunabot) JobEnded: {'identifier': 'lunabot', 'rc': 0}
+[7.423462] (-) EventReactorShutdown: {}

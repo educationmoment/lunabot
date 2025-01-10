@@ -1,0 +1,5 @@
+/usr/bin/cmake -S/home/stupid/lunabot_ws/src/lunabot -B/home/stupid/lunabot_ws/build/lunabot --check-build-system CMakeFiles/Makefile.cmake 0
+Re-run cmake file: Makefile older than: /home/stupid/lunabot_ws/src/lunabot/CMakeLists.txt
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/CMakeOutput.log".

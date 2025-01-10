@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lunabot__py",
+		"source" : "/home/stupid/lunabot_ws/build/lunabot/lunabot__py"
+	}
+}

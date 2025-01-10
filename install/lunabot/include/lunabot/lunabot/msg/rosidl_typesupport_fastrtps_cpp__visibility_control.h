@@ -1,0 +1,1 @@
+/home/stupid/lunabot_ws/build/lunabot/rosidl_typesupport_fastrtps_cpp/lunabot/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

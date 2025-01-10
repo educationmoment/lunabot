@@ -1,0 +1,2 @@
+Invoking command in '/home/stupid/lunabot_ws/build/lunabot': /usr/bin/cmake --build /home/stupid/lunabot_ws/build/lunabot -- -j20 -l20
+Invoked command in '/home/stupid/lunabot_ws/build/lunabot' returned '2': /usr/bin/cmake --build /home/stupid/lunabot_ws/build/lunabot -- -j20 -l20

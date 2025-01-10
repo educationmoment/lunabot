@@ -1,0 +1,24 @@
+[0.011s] Invoking command in '/home/stupid/lunabot_ws/build/lunabot': /usr/bin/cmake --build /home/stupid/lunabot_ws/build/lunabot -- -j20 -l20
+[0.051s] /usr/bin/cmake -S/home/stupid/lunabot_ws/src/lunabot -B/home/stupid/lunabot_ws/build/lunabot --check-build-system CMakeFiles/Makefile.cmake 0
+[0.082s] Re-run cmake file: Makefile older than: /home/stupid/lunabot_ws/src/lunabot/CMakeLists.txt
+[0.096s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.211s] Traceback (most recent call last):
+[0.211s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.211s]     from ament_package.templates import get_environment_hook_template_path
+[0.211s] ModuleNotFoundError: No module named 'ament_package'
+[0.220s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.220s]   execute_process(/usr/bin/python3
+[0.220s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.220s]   /home/stupid/lunabot_ws/build/lunabot/ament_cmake_package_templates/templates.cmake)
+[0.220s]   returned error code 1
+[0.220s] Call Stack (most recent call first):
+[0.221s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.221s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.221s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.221s]   CMakeLists.txt:5 (find_package)
+[0.221s] 
+[0.221s] [0m
+[0.221s] -- Configuring incomplete, errors occurred!
+[0.221s] See also "/home/stupid/lunabot_ws/build/lunabot/CMakeFiles/CMakeOutput.log".
+[0.225s] gmake: *** [Makefile:1182: cmake_check_build_system] Error 1
+[0.227s] Invoked command in '/home/stupid/lunabot_ws/build/lunabot' returned '2': /usr/bin/cmake --build /home/stupid/lunabot_ws/build/lunabot -- -j20 -l20

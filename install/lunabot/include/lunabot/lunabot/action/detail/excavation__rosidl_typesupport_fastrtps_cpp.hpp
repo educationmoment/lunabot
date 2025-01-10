@@ -1,0 +1,1 @@
+/home/stupid/lunabot_ws/build/lunabot/rosidl_typesupport_fastrtps_cpp/lunabot/action/detail/excavation__rosidl_typesupport_fastrtps_cpp.hpp

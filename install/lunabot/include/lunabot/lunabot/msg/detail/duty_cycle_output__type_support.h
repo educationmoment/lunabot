@@ -1,0 +1,1 @@
+/home/stupid/lunabot_ws/build/lunabot/rosidl_generator_c/lunabot/msg/detail/duty_cycle_output__type_support.h

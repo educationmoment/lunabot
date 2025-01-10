@@ -1,0 +1,1 @@
+/home/stupid/lunabot_ws/build/lunabot/rosidl_generator_cpp/lunabot/action/detail/localization__type_support.hpp

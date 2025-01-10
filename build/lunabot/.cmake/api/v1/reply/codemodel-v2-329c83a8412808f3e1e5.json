@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-55ce8bb499ee4b1e0354.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "lunabot__py",
+					"jsonFile" : "directory-lunabot__py-fe471dcfa66c7b9d4903.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/stupid/lunabot_ws/build/lunabot/lunabot__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lunabot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_lunabot_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_lunabot_egg-a7565e1570e9169657ee.json",
+					"name" : "ament_cmake_python_build_lunabot_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_lunabot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_lunabot-776d4072cb4e0c5aaa78.json",
+					"name" : "ament_cmake_python_symlink_lunabot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot-1504d48af495c398e132.json",
+					"name" : "lunabot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot__cpp-c2b6ff4d02d672ddfd22.json",
+					"name" : "lunabot__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lunabot__py::@872cba3b2462a5950072",
+					"jsonFile" : "target-lunabot__py-28db0c9aa15b3b67eb5f.json",
+					"name" : "lunabot__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot__rosidl_generator_c-ef79b5cde8201e42d0f3.json",
+					"name" : "lunabot__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot__rosidl_generator_py-a3dc37eebd6679f26b84.json",
+					"name" : "lunabot__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot__rosidl_typesupport_c-19a18c95bde39b495300.json",
+					"name" : "lunabot__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot__rosidl_typesupport_c__pyext-c762a19320d4fcf6a6dd.json",
+					"name" : "lunabot__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot__rosidl_typesupport_cpp-a9e1638e722cd418e5ef.json",
+					"name" : "lunabot__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot__rosidl_typesupport_fastrtps_c-f527ba24a7d11e62a9bf.json",
+					"name" : "lunabot__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot__rosidl_typesupport_fastrtps_c__pyext-0237335c8270ddd7c571.json",
+					"name" : "lunabot__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot__rosidl_typesupport_fastrtps_cpp-06acfc3e8dc9bbc074a5.json",
+					"name" : "lunabot__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot__rosidl_typesupport_introspection_c-0961538d71fb64f8cf7f.json",
+					"name" : "lunabot__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot__rosidl_typesupport_introspection_c__pyext-d6b36d7c30770995d207.json",
+					"name" : "lunabot__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot__rosidl_typesupport_introspection_cpp-71a458f315061cc077dc.json",
+					"name" : "lunabot__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lunabot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lunabot_uninstall-da5d3fb7d9732a3bd639.json",
+					"name" : "lunabot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8364b2117d8731102f06.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/stupid/lunabot_ws/build/lunabot",
+		"source" : "/home/stupid/lunabot_ws/src/lunabot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
