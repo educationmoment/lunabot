@@ -186,7 +186,7 @@ class LocalizationServer(Node):
 
         output_img = cv_image.copy()
 
-        # ArUco dictionary for AprilTag (36h11)
+        # ArUco dictionary for AprilTag (36h11) (graysons, wec an chagne this later)
         dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_APRILTAG_36h11)
 
         corners, ids, _ = cv2.aruco.detectMarkers(cv_image, dictionary)
