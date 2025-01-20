@@ -37,9 +37,7 @@ class NavigationClient(Node):
         self.get_logger().info("NavigationClient node initialized.")
 
     def execute(self):
-        """
-        Called every 1s by the timer to check which phase (localization, navigation, excavation) is next.
-        """
+# calls like everyone one second i think to check if the other servers are on (nav , exca, local)
         if self.start_localization_:
             self.request_localization()
         elif self.start_navigation_:
@@ -51,10 +49,7 @@ class NavigationClient(Node):
     # 1) LOCALIZATION
     # --------------------------------------------------------------------------
     def request_localization(self):
-        """
-        Sends a Localization goal to the 'localization_action' server.
-        If the action server is unavailable, logs a warning once and tries again next timer tick.
-        """
+
         # wait for the action server (up to 1s)
         if not self.localization_client_.wait_for_server(timeout_sec=1.0):
             self.get_logger().warn("\033[1;33mLOCALIZATION ACTION SERVER NOT AVAILABLE.\033[0m")
