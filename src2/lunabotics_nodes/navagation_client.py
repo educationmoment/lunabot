@@ -68,12 +68,7 @@ class NavigationClient(Node):
         self.start_localization_ = False
 
     def handle_localization_result(self, future):
-        """
-        Called when the localization action completes.
-        The future returns a ClientGoalHandle, whose get_result_async() we can chain,
-        or in simpler usage, it might directly have a .result for the final result.
-        We'll do a second callback for the actual result to keep it consistent.
-        """
+
         goal_handle = future.result()
         if not goal_handle.accepted:
             self.get_logger().error("\033[1;31mLOCALIZATION GOAL REJECTED.\033[0m")
@@ -85,9 +80,7 @@ class NavigationClient(Node):
         result_future.add_done_callback(self.handle_localization_result_done)
 
     def handle_localization_result_done(self, future):
-        """
-        Called when the result of the localization action is finally available.
-        """
+# when localization is avaible
         result = future.result()
         if result.status == 4:  # STATUS_SUCCEEDED
             loc_result = result.result
